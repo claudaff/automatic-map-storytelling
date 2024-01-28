@@ -6,7 +6,9 @@ To address these challenges, we propose a decision tree structure based approach
 
 ## Approach
 
-![overview](https://github.com/claudaff/automatic-map-storytelling/assets/145538566/291aecfd-1f0b-4461-8267-67c8cb79c94b)
+![overview](https://github.com/claudaff/automatic-map-storytelling/assets/145538566/9ec92ba1-764b-48df-aabf-ddb52504006d)
+
+
 
 We downloaded maps and their metadata from the online map repository [David Rumsey Map Collection](https://www.davidrumsey.com/). For training, we processed the metadata and generated ground-truth captions about "where", "what" and "when" to fine-tune separate CLIP models. During inference, the input map follows the structure of our proposed decision tree, where at the tree’s root node, first, the map type is determined. Then, keyword captions with respect to this map type are generated. At last, a GPT model is used to merge the generated keywords and extend the map’s story about the "why" component. Built on that, we developed a web application for interactive map storytelling.
 

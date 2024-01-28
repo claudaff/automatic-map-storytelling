@@ -41,6 +41,6 @@ Download and unzip the following fifteen .zip files containing our collected map
 
 ### 3. Generate ground-truth captions
 
-Run 'CaptionGenerationClassical.py' and 'CaptionGenerationPictorial.py'.
+Run the two scripts `CaptionGenerationClassical.py` and `CaptionGenerationPictorial.py`.
 
 ### 4. CLIP fine-tuning

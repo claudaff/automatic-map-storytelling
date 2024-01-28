@@ -13,13 +13,13 @@ To address these challenges, we propose a decision tree structure based approach
 We downloaded maps and their metadata from the online map repository [David Rumsey Map Collection](https://www.davidrumsey.com/). For training, we processed the metadata and generated ground-truth captions about "where", "what" and "when" to fine-tune separate CLIP models. During inference, the input map follows the structure of our proposed decision tree, where at the tree’s root node, first, the map type is determined. Then, keyword captions with respect to this map type are generated. At last, a GPT model is used to merge the generated keywords and extend the map’s story about the "why" component. Built on that, we developed a web application for interactive map storytelling.
 
 ## Reproduction
-### Training prerequisites
+### 1.) Training prerequisites
 
 ```sh
 git clone https://github.com/claudaff/automatic-map-storytelling.git
 ```
 
-### Map datasets
+### 2.) Map datasets
 
 Download and unzip the following fifteen .zip files containing our collected maps with associated metadata. (Overall less than 2 GB).
 
@@ -38,3 +38,7 @@ Download and unzip the following fifteen .zip files containing our collected map
 [M13](https://drive.google.com/file/d/1i3REduWyjhef9lXF6RuWuWIvSDif-Gxz/view?usp=drive_link), 
 [M14](https://drive.google.com/file/d/1dcXKBu4rgtkZXJSOhpGYnpA43UrCwj_5/view?usp=drive_link), 
 [M15](https://drive.google.com/file/d/1H_4D-I1EKuF8ggXIRLNjxQkf-GJQExot/view?usp=drive_link)
+
+### 3.) Generate ground-truth captions
+
+### 4.) CLIP fine-tuning

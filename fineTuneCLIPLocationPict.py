@@ -22,8 +22,8 @@ processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
 
-area_captions = np.load("areasTEST1.npy")
-area_paths = np.load("pathsTEST1.npy")
+area_captions = np.load("pictorialMapsCaptionsLocation.npy")
+area_paths = np.load("pictorialMapsPathsLocation.npy")
 
 print(Counter(area_captions))
 

@@ -8,6 +8,7 @@ import copy
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device)
 
+input_map = "TopoMapsTest/(Egypt)5183642015873277691/15054064.jpg" # change path to historical map of your choice
 
 class Combined_model(nn.Module):
     def __init__(
@@ -159,8 +160,6 @@ model_topic.load_state_dict(torch.load(model_path_topic, map_location=device))
 freeze_network(model_topic)
 
 results = []
-
-input_map = "TopoMapsTest/(Egypt)5183642015873277691/15054064.jpg" # change path to historical map of your choice
 
 image = preprocess(Image.open(input_map)).unsqueeze(0).to(device)
 combined_model = Combined_model(

@@ -64,6 +64,10 @@ Alternatively, download the six fine-tuned models here (3.4 GB overall):
 
 2. Run the script `Inference.py` after reading the instructions in the comments.
 
+# Map Storytelling GUI
 
+To run our map storytelling web app, open the script `CaptionInferenceGUI.py`, add your OPENAI API KEY and run it.
+
+Alternatively,
 
 

@@ -22,8 +22,8 @@ processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
 
-pic_captions = np.load("PictorialCaptions.npy")
-pic_paths = np.load("PictorialPaths.npy")
+pic_captions = np.load("pictorialMapsCaptionsTopic.npy")
+pic_paths = np.load("pictorialMapsPathsTopic.npy")
 
 # Define train, validation and test splits
 

@@ -50,4 +50,11 @@ Run the six fine-tuning scripts `fineTuneCLIP{Caption Category}`. The output wil
 
 Alternatively, download the six fine-tuned models here (3.4 GB overall):
 
+[FT1](https://drive.google.com/file/d/1SAH4cqQSmvywsvNloYLlopn5EAiHbWrR/view?usp=drive_link), 
+[FT2](https://drive.google.com/file/d/1d-oyhA2NjpKWyXV2J8C9e9SOIJ9eeRyp/view?usp=drive_link), 
+[FT3](https://drive.google.com/file/d/1N37UD8fBmicv3dXnqB3VvWMpuGH641XK/view?usp=drive_link), 
+[FT4](https://drive.google.com/file/d/1ln04Twd3tXXON5WNIMPvBaG-3T7ZSDlw/view?usp=drive_link), 
+[FT5](https://drive.google.com/file/d/1AGL_WaqzjWNGwLUpuj8Mn346F5SLEMP6/view?usp=drive_link), 
+[FT6](https://drive.google.com/file/d/13gb1JBve4er4AGR8HgdEijNVmgeAj291/view?usp=drive_link)
+
 ### 5. Inference

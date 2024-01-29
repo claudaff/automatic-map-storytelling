@@ -255,16 +255,13 @@ for maps_directory in maps_directories:
 print(Counter(captions))
 print(len(captions))
 
-np.save("areasTEST1.npy", np.array(captions_area))
-np.save("pathsTEST1.npy", np.array(image_paths))
-
-np.save("captionsTEST2.npy", np.array(captions))
-np.save("pathsTEST2.npy", np.array(image_paths))
+np.save("pictorialMapsCaptionsLocation.npy", np.array(captions_area))
+np.save("pictorialMapsPathsLocation.npy", np.array(image_paths))
 
 # Post-process captions and paths (for topics)
 
-caps = np.load("captionsTEST2.npy")
-paths = np.load("pathsTEST2.npy")
+caps = captions
+paths = image_paths
 
 print(len(caps))
 print(len(paths))
@@ -299,5 +296,5 @@ print("Count- ", len(Counter(captions)))
 print(len(captions))
 print(len(map_paths))
 
-np.save("PictorialCaptions.npy", captions)
-np.save("PictorialPaths.npy", map_paths)
+np.save("pictorialMapsCaptionsTopic.npy", captions)
+np.save("pictorialMapsPathsTopic.npy", map_paths)

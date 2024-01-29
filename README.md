@@ -59,10 +59,8 @@ Alternatively, download the six fine-tuned models here (3.4 GB overall):
 
 ### 5. Inference
 
-1. Download our test maps here (less than 50 MB) and unzip:
+1. Download our test maps here (less than 50 MB) and unzip: [Pictorial Test Maps](https://drive.google.com/file/d/1LyYpksg86X1TLUb5LKfSTAD7aCQ_RE68/view?usp=drive_link), [Topographic Test Maps](https://drive.google.com/file/d/1C7O-Jp8Y92nJ8dgkazp44yVbzzqs1_RL/view?usp=drive_link) 
 
-[Pictorial Test Maps](https://drive.google.com/file/d/1LyYpksg86X1TLUb5LKfSTAD7aCQ_RE68/view?usp=drive_link), 
-[Topographic Test Maps](https://drive.google.com/file/d/1C7O-Jp8Y92nJ8dgkazp44yVbzzqs1_RL/view?usp=drive_link)
 
 2. Run the script `Inference.py` after reading the instructions in the comments.
 

@@ -22,7 +22,7 @@ git clone https://github.com/claudaff/automatic-map-storytelling.git
 
 ### 2. Map datasets
 
-Download and unzip the following fifteen .zip files containing our collected maps with associated metadata. (Overall less than 2 GB).
+Download and unzip the following fifteen .zip files containing our collected maps with associated metadata (1.6 GB overall).
 
 [M1](https://drive.google.com/file/d/1EWVyhGqqPq-9bQUSOFxBd-L3zaVjfbbl/view?usp=drive_link), 
 [M2](https://drive.google.com/file/d/1ZV-0CT_9Nh21yLHyajoVsGyZKywo03UB/view?usp=drive_link)
@@ -48,6 +48,6 @@ Run the two scripts `CaptionGenerationClassical.py` (for topographic maps) and `
 
 Run the six fine-tuning scripts `fineTuneCLIP{Caption Category}`. The output will be six fine-tuned CLIP models. One for each caption category.
 
-Alternatively, download the six fine-tuned models here: 
+Alternatively, download the six fine-tuned models here (3.4 GB overall):
 
 ### 5. Inference

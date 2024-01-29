@@ -47,3 +47,7 @@ Run the two scripts `CaptionGenerationClassical.py` (for topographic maps) and `
 ### 4. CLIP fine-tuning
 
 Run the six fine-tuning scripts `fineTuneCLIP{Caption Category}`. The output will be six fine-tuned CLIP models. One for each caption category.
+
+Alternatively, download the six fine-tuned models here: 
+
+### 5. Inference

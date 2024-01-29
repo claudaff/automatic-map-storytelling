@@ -66,8 +66,9 @@ Alternatively, download the six fine-tuned models here (3.4 GB overall):
 
 # Map Storytelling GUI
 
-To run our map storytelling web app, open the script `CaptionInferenceGUI.py`, add your OPENAI API KEY and run it.
+To run our map storytelling web app, open the script `CaptionInferenceGUI.py`, add your own OpenAI API Key and run it.
 
-Alternatively,
+Alternatively, if no API Key is available a 'light' version of our approach can be tested without GPT.
+For this open `CaptionInferenceLight.py` and assign `input_map` the path to the desired historical map. Running this script will generate corresponding keyword captions with no "why" part. 
 
 

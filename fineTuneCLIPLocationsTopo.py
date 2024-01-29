@@ -13,7 +13,7 @@ import torch.optim as optim
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-# Python script to fine-tune CLIP for topographic areas
+# Python script to fine-tune CLIP for topographic locations
 # Adopted and adapted from: https://github.com/statscol/clip-fine-tuning/blob/main/clip-fine-tuning.ipynb
 
 model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")

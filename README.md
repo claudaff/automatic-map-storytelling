@@ -41,7 +41,7 @@ Download and unzip the following fifteen .zip files containing our collected map
 
 ### 3. Generate ground-truth captions
 
-Run the two scripts `CaptionGenerationClassical.py` and `CaptionGenerationPictorial.py`. The output will be two NumPy arrays (one containing the map image paths and one containing the corresponding ground-truth captions) for each of the six caption categories. 
+Run the two scripts `CaptionGenerationClassical.py` (for topographic maps) and `CaptionGenerationPictorial.py` (for pictorial maps). The output will be two NumPy arrays (one containing the map image paths and one containing the corresponding ground-truth captions) for each of the six caption categories. 
 
 ### 4. CLIP fine-tuning
 

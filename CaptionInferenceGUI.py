@@ -14,7 +14,7 @@ from openai import OpenAI
 
 client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key='*************************************',
+    api_key='************************************', # replace with your API key
 )
 
 class Combined_model(nn.Module):

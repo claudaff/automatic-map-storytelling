@@ -86,27 +86,27 @@ def freeze_network(model):
         p.requires_grad = False
     return model
 
-model_path_maptype = "Models_CLIP/best_model_MapType.pt"
+model_path_maptype = "CLIPMapType.pt"
 model_maptype.load_state_dict(torch.load(model_path_maptype, map_location=device))
 freeze_network(model_maptype)
 
-model_path_location = "Models_CLIP/best_model_27Countries.pt"
+model_path_location = "CLIPLocationTopo.pt"
 model_location.load_state_dict(torch.load(model_path_location, map_location=device))
 freeze_network(model_location)
 
-model_path_century = "Models_CLIP/best_model_Date.pt"
+model_path_century = "CLIPCentury.pt"
 model_century.load_state_dict(torch.load(model_path_century, map_location=device))
 freeze_network(model_century)
 
-model_path_note = "Models_CLIP/best_model_Note.pt"
+model_path_note = "CLIPStyle.pt"
 model_note.load_state_dict(torch.load(model_path_note, map_location=device))
 freeze_network(model_note)
 
-model_path_area = "Models_CLIP/best_model_Pictorial_Area.pt"
+model_path_area = "CLIPLocationPict.pt"
 model_area.load_state_dict(torch.load(model_path_area, map_location=device))
 freeze_network(model_area)
 
-model_path_topic = "Models_CLIP/best_model_Pictorial_Topic_V2.pt"
+model_path_topic = "CLIPTopic.pt"
 model_topic.load_state_dict(torch.load(model_path_topic, map_location=device))
 freeze_network(model_topic)
 

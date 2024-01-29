@@ -58,3 +58,10 @@ Alternatively, download the six fine-tuned models here (3.4 GB overall):
 [FT6](https://drive.google.com/file/d/13gb1JBve4er4AGR8HgdEijNVmgeAj291/view?usp=drive_link)
 
 ### 5. Inference
+
+Download our test maps here (less than 50 MB):
+
+[Topographic Test Maps](https://drive.google.com/file/d/1LyYpksg86X1TLUb5LKfSTAD7aCQ_RE68/view?usp=drive_link), 
+[Pictorial Test Maps](https://drive.google.com/file/d/1C7O-Jp8Y92nJ8dgkazp44yVbzzqs1_RL/view?usp=drive_link)
+
+

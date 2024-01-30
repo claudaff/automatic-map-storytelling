@@ -17,7 +17,9 @@ Step by step instructions to reproduce our results with our proposed approach.
 ### 1. Training prerequisites
 
 ```sh
-git clone https://github.com/claudaff/automatic-map-storytelling.git
+git clone https://github.com/rmokady/automatic-map-storytelling && cd automatic-map-storytelling
+conda env create -f environment.yml
+conda activate map_storytelling
 ```
 
 ### 2. Map datasets

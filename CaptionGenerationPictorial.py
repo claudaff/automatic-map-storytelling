@@ -2,7 +2,6 @@ import os
 import re
 from collections import Counter
 import numpy as np
-import cv2
 
 # Python script to assign correct topic and area to pictorial maps
 
@@ -273,23 +272,10 @@ for c, p in zip(caps, paths):
 
     if "BOX" not in c:
 
-        img = cv2.imread(p)
-
-        try:
-
-            # print(c)
-            # print(p)
-            captions.append(c)
-            map_paths.append(p)
-            # cv2.imshow('map', img)
-
-        except:
-
-            cv2.error
-
-        cv2.waitKey(0)  # waits until a key is pressed
-        cv2.destroyAllWindows()  # destroys the window showing image
-
+        # print(c)
+        # print(p)
+        captions.append(c)
+        map_paths.append(p)
 
 print(Counter(captions))
 print("Count- ", len(Counter(captions)))

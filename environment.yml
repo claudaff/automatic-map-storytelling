@@ -10,4 +10,7 @@ dependencies:
    - ftfy
    - regex
    - tqdm
+   - opencv-python
+   - gradio
+   - scikit-learn
    - git+https://github.com/openai/CLIP.git

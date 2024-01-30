@@ -62,11 +62,11 @@ Alternatively, download the six fine-tuned models here (3.4 GB overall):
 1. Download our test maps here (less than 50 MB) and unzip: [Pictorial Test Maps](https://drive.google.com/file/d/1LyYpksg86X1TLUb5LKfSTAD7aCQ_RE68/view?usp=drive_link), [Topographic Test Maps](https://drive.google.com/file/d/1C7O-Jp8Y92nJ8dgkazp44yVbzzqs1_RL/view?usp=drive_link) 
 
 
-2. Run the script `Inference.py` after reading the instructions in the comments.
+2. Run the script `Inference.py` after reading the instructions in the comments. This script allows testing the six fine-tuned models separately on our test maps.
 
 ## Map Storytelling GUI
 
-To run our map storytelling web app, open the script `CaptionInferenceGUI.py`, add your own OpenAI API Key and run it.
+To run our map storytelling web app, open the script `CaptionInferenceGUI.py`, add your own OpenAI API Key and run it. Make sure that the six fine-tuned models (FT1 to FT6) were downloaded.
 
 Alternatively, if no API Key is available a 'light' version of our approach can be tested without GPT.
 For this open `CaptionInferenceLight.py` and assign `input_map` the path to the desired historical map. Running this script will generate corresponding keyword captions with no "why" part. 

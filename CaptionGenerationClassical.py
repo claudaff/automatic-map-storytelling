@@ -1,5 +1,4 @@
 import os
-import cv2
 import numpy as np
 from collections import Counter
 
@@ -485,27 +484,6 @@ for maps_directory in maps_directories:
 
                         if " part of greece" == area.lower():
                             area = "part of greece"
-
-                        showImages = (
-                            False  # set to TRUE to check images for specific area
-                        )
-
-                        if area.lower() == "multiple" and showImages:
-
-                            print(img)
-
-                            img = cv2.imread(img)
-
-                            try:
-
-                                cv2.imshow("map", img)
-
-                            except cv2.error:
-
-                                cv2.error
-
-                            cv2.waitKey(0)  # waits until a key is pressed
-                            cv2.destroyAllWindows()  # destroys the window showing image
 
                         # Assign correct style information based on Note
                         decorative_element = False

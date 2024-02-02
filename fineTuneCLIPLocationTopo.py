@@ -164,7 +164,7 @@ def train_model(
             if os.path.exists(Path(checkpoint_path) / "CLIPLocTopo.pt"):
                 os.remove(Path(checkpoint_path) / "CLIPLocTopo.pt")
             best_score = val_metrics
-            torch.save(model.state_dict(), Path(checkpoint_path) / "CLIPLocTopo.pt")
+            torch.save(model.state_dict(), "CLIPLocTopo.pt")
 
     return history
 

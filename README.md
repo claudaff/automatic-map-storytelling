@@ -12,7 +12,7 @@ To address these challenges, we propose a decision tree structure based approach
 
 
 
-We downloaded maps and their metadata from the online map repository [David Rumsey Map Collection](https://www.davidrumsey.com/). For training, we processed the metadata and generated ground-truth captions about "where", "what" and "when" to fine-tune separate CLIP models. During inference, the input map follows the structure of our proposed decision tree, where at the tree’s root node, first, the map type is determined. Then, keyword captions with respect to this map type are generated. At last, a GPT model is used to merge the generated keywords and extend the map’s story about the "why" component. Built on that, we developed a web application for interactive map storytelling.
+We downloaded maps and their metadata from the online map repository [David Rumsey Map Collection](https://www.davidrumsey.com/). For training, we processed the metadata and maps to generate ground-truth captions to then fine-tune separate CLIP models. During inference, the input map follows the structure of our proposed decision tree, where at the tree’s root node, the map type is determined first. Then, keyword captions with respect to this map type are generated. At last, a GPT model is used to merge the generated keywords and extend the map’s story about the "Why?" component. Building on that, we developed a web application for interactive map storytelling.
 
 ## Reproduction
 Step by step instructions to reproduce our results with our proposed approach.
@@ -73,6 +73,6 @@ Alternatively, download the six fine-tuned models here (3.4 GB overall):
 To run our map storytelling web app, open the script `CaptionInferenceGUI.py`, add your own OpenAI API Key and run it. Make sure that the six fine-tuned models (FT1 to FT6) were downloaded.
 
 Alternatively, if no API Key is available a 'light' version of our approach can be tested without GPT.
-For this open `CaptionInferenceLight.py` and assign `input_map` the path to the desired historical map. Running this script will generate corresponding keyword captions with no _why_ part. 
+For this open `CaptionInferenceLight.py` and assign `input_map` the path to the desired historical map. Running this script will generate corresponding keyword captions with no "Why?" part. 
 
 

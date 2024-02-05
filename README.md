@@ -6,7 +6,8 @@ To address these challenges, we propose a decision tree structure based approach
 
 ## Approach
 
-[OverviewGraph.pdf](https://github.com/claudaff/automatic-map-storytelling/files/14164812/OverviewGraph.pdf)
+![OverviewGraph](https://github.com/claudaff/automatic-map-storytelling/assets/145538566/abf71b21-66a5-41e7-9888-e67ad4630593)
+
 
 
 

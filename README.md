@@ -33,7 +33,7 @@ conda activate map_storytelling
 Download and unzip the following fifteen .zip files containing our collected maps with associated metadata (1.6 GB overall).
 
 [M1](https://drive.google.com/file/d/1EWVyhGqqPq-9bQUSOFxBd-L3zaVjfbbl/view?usp=drive_link), 
-[M2](https://drive.google.com/file/d/1ZV-0CT_9Nh21yLHyajoVsGyZKywo03UB/view?usp=drive_link)
+[M2](https://drive.google.com/file/d/1ZV-0CT_9Nh21yLHyajoVsGyZKywo03UB/view?usp=drive_link),
 [M3](https://drive.google.com/file/d/11XBnAgegMf-jWNlMAStL4w_U3CWCuAD5/view?usp=drive_link), 
 [M4](https://drive.google.com/file/d/1SoZGjEao8B0j9B0kBu79GxsUMg-gjCW1/view?usp=drive_link), 
 [M5](https://drive.google.com/file/d/1FGNIDbX1Js5Wjv7vaRUy6PRo7-bD2D0K/view?usp=drive_link), 

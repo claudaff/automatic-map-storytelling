@@ -16,7 +16,7 @@ To address these problems, we fine-tune the state-of-the-art vision-language mod
 
 
 
-We downloaded maps and their metadata from the online map repository [David Rumsey Map Collection](https://www.davidrumsey.com/). For training, we processed the metadata and maps to generate ground-truth captions to then fine-tune separate CLIP models. During inference, the input map follows the structure of our proposed decision tree, where at the tree’s root node, the map type is determined first. Then, keyword captions with respect to this map type are generated. At last, a GPT model is used to merge the generated keywords and extend the map’s story about the "Why?" component. Building on that, we developed a web application for interactive map storytelling.
+We downloaded maps and their metadata from the online map repository [David Rumsey Map Collection](https://www.davidrumsey.com/). For training, we processed the metadata and maps to generate ground-truth captions to then fine-tune separate CLIP models. During inference, the input map follows the structure of our proposed decision tree, where at the tree’s root node, the map type is determined first. Then, keyword captions with respect to this map type are generated. At last, a GPT model is used to merge the generated keywords and extend the map’s story about the _why_ component. Building on that, we developed a web application for interactive map storytelling.
 
 ## Reproduction
 Step by step instructions to reproduce our results with our proposed approach.

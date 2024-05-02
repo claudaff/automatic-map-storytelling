@@ -9,8 +9,6 @@ To address these problems, we fine-tune the state-of-the-art vision-language mod
 
 ## Approach
 
-![OverviewDiagram](https://github.com/claudaff/automatic-map-storytelling/assets/145538566/45cdf01f-e1fe-4660-82b0-0edbcc39d369)
-
 <img width="961" alt="Overview" src="https://github.com/claudaff/automatic-map-storytelling/assets/145538566/01aa37f2-2721-4828-b17e-3b510c5c8dfb">
 
 

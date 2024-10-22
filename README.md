@@ -1,6 +1,6 @@
 # An Efficient System for Automatic Map Storytelling – A Case Study on Historical Maps
 
-[arXiv](https://arxiv.org/abs/2410.15780) | [BibTeX](## BibTeX)
+[arXiv](https://arxiv.org/abs/2410.15780) | [BibTeX](#bibtex)
 
 ## Description
 Historical maps provide valuable information and knowledge about the past. However, as they often feature non-standard projections, hand-drawn styles, and artistic elements, it is challenging for non-experts to identify and interpret them. While existing image captioning methods have achieved remarkable success on natural images, their performance on maps is suboptimal as maps are underrepresented in their pre-training process. Despite the recent advance of GPT-4 in text recognition and map captioning, it still has a limited understanding of maps, as its performance wanes when texts (e.g., titles and legends) in maps are missing or inaccurate. Besides, it is inefficient or even impractical to fine-tune the model with users’ own datasets.

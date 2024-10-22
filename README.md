@@ -75,4 +75,18 @@ To run our map storytelling web app, open the script `CaptionInferenceGUI.py`, a
 Alternatively, if no API Key is available a 'light' version of our approach can be tested without GPT.
 For this open `CaptionInferenceLight.py` and assign `input_map` the path to the desired historical map. Running this script will generate corresponding keyword captions with no _why_ part. 
 
+## BibTeX
+
+```
+@misc{liu2024efficientautomaticmapstorytelling,
+      title={An Efficient System for Automatic Map Storytelling -- A Case Study on Historical Maps}, 
+      author={Ziyi Liu and Claudio Affolter and Sidi Wu and Yizi Chen and Lorenz Hurni},
+      year={2024},
+      eprint={2410.15780},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.15780}, 
+}
+```
+
 

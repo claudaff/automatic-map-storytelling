@@ -2,6 +2,10 @@
 
 [arXiv](https://arxiv.org/abs/2410.15780) | [BibTeX](#bibtex)
 
+[Official Demo](https://ziyiiil.github.io/Automatic-Map-Storytelling-Demo/) 
+
+We have set the linked official demo page to 'private' by default to control the costs. If you wish to try it, please send us an [Email](mailto:ziyliu@student.ethz.ch?cc=claudaff@student.ethz.ch&subject=GitHub Demo Page Request) in order to book a time slot. During this time, the demo page will be set to 'public'.
+
 ## Description
 Historical maps provide valuable information and knowledge about the past. However, as they often feature non-standard projections, hand-drawn styles, and artistic elements, it is challenging for non-experts to identify and interpret them. While existing image captioning methods have achieved remarkable success on natural images, their performance on maps is suboptimal as maps are underrepresented in their pre-training process. Despite the recent advance of GPT-4 in text recognition and map captioning, it still has a limited understanding of maps, as its performance wanes when texts (e.g., titles and legends) in maps are missing or inaccurate. Besides, it is inefficient or even impractical to fine-tune the model with users’ own datasets.
 

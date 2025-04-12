@@ -20,6 +20,8 @@ We first process maps and their metadata automatically from the online map repos
 
 ## Reproduction
 Step by step instructions to reproduce our results with our proposed approach.
+
+Note: Step 3 requires a Windows machine.
 ### 1. Training prerequisites
 
 ```sh

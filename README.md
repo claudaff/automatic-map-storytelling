@@ -13,7 +13,7 @@ To address these problems, we propose a novel and lightweight map-captioning cou
 
 ## Approach
 
-<img width="961" alt="Overview" src="https://github.com/claudaff/automatic-map-storytelling/assets/145538566/01aa37f2-2721-4828-b17e-3b510c5c8dfb">
+<img width="1108" alt="Overview" src="https://github.com/user-attachments/assets/90edb013-cef3-4d84-8a70-82ba39412ad1" />
 
 We first process maps and their metadata automatically from the online map repository [David Rumsey Map Collection](https://www.davidrumsey.com/) to generate a training dataset with keyword captions regarding _where_, _what_ and _when_ and use this dataset to fine-tune different CLIP models. In the inference phase, we propose a decision tree architecture to structure the keyword captions with respect to the map type and use GPT to extend the context (_why_) and summarize the story. Furthermore, a web interface is developed for interactive storytelling with the decision tree architecture and fine-tuned models loaded at the backend.
 

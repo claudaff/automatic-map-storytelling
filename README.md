@@ -1,6 +1,6 @@
-# An Efficient System for Automatic Map Storytelling – A Case Study on Historical Maps
+# An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps
 
-[arXiv](https://arxiv.org/abs/2410.15780) | [BibTeX](#bibtex)
+[Paper](https://doi.org/10.5194/agile-giss-6-5-2025) | [BibTeX](#bibtex)
 
 [Official Demo](https://ziyiiil.github.io/Automatic-Map-Storytelling-Demo/) 
 
@@ -82,15 +82,18 @@ For this open `CaptionInferenceLight.py` and assign `input_map` the path to the 
 ## BibTeX
 
 ```
-@misc{liu2024efficientautomaticmapstorytelling,
-      title={An Efficient System for Automatic Map Storytelling -- A Case Study on Historical Maps}, 
-      author={Ziyi Liu and Claudio Affolter and Sidi Wu and Yizi Chen and Lorenz Hurni},
-      year={2024},
-      eprint={2410.15780},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2410.15780}, 
+@article{liu_efficient_2025,
+	title = {An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps},
+      author = {Liu, Z. and Affolter, C. and Wu, S. and Chen, Y. and Hurni, L.},
+      year = {2025},
+      journaltitle = {{AGILE}: {GIScience} Series},
+	volume = {6},
+      pages = {5},
+	url = {https://agile-giss.copernicus.org/articles/6/5/2025/},
+	doi = {10.5194/agile-giss-6-5-2025},
 }
 ```
+
+
 
 

@@ -83,14 +83,14 @@ For this open `CaptionInferenceLight.py` and assign `input_map` the path to the 
 
 ```
 @article{liu_efficient_2025,
-	title = {An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps},
-      author = {Liu, Z. and Affolter, C. and Wu, S. and Chen, Y. and Hurni, L.},
-      year = {2025},
-      journaltitle = {{AGILE}: {GIScience} Series},
-	volume = {6},
-      pages = {5},
-	url = {https://agile-giss.copernicus.org/articles/6/5/2025/},
-	doi = {10.5194/agile-giss-6-5-2025},
+    title = {An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps},
+    author = {Liu, Z. and Affolter, C. and Wu, S. and Chen, Y. and Hurni, L.},
+    year = {2025},
+    journaltitle = {{AGILE}: {GIScience} Series},
+    volume = {6},
+    pages = {5},
+    url = {https://agile-giss.copernicus.org/articles/6/5/2025/},
+    doi = {10.5194/agile-giss-6-5-2025},
 }
 ```
 
